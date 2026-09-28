@@ -1,0 +1,488 @@
+<!doctype html>
+<!--
+  ============================================================================
+  Regulamin / Terms of Service — Last Outpost: Dead Zone.
+  Wydawca: KONSTANTA Sp. z o.o., kontakt: konstanta.elektroinst@gmail.com.
+
+  UWAGA: TO JEST TYLKO ZRODLO TRESCI, tak samo jak przy privacy-policy.html.
+  Realnie hostowana (GitHub Pages) jest KOPIA tego pliku w OSOBNYM, publicznym
+  repo AdzikowskiRexi/lastoutpost-legal (glowne repo gry jest prywatne).
+  Po kazdej zmianie tego pliku: skopiuj go do lokalnej kopii lastoutpost-legal
+  i zrob tam `git push`.
+
+  Adres na zywo (Pages juz wlaczony w lastoutpost-legal, root/main):
+    https://adzikowskirexi.github.io/lastoutpost-legal/terms-of-service.html
+  Ten sam adres trzeba wpisac w:
+    - Google Play Console > Store settings (jesli jest pole na ToS) lub App
+      content, tam gdzie sklep o to poprosi przy konfiguracji zakupow
+    - ewentualny link "Regulamin" w grze (na razie NIE ma takiego linku w
+      kodzie — na razie tylko PRIVACY_POLICY_URL w screens/start_screen.gd;
+      dodanie analogicznego TERMS_URL i przycisku w UI to osobna decyzja,
+      jeszcze nie podjeta)
+
+  Ceny produktow NIE sa tu podane celowo — ustawia je Google Play per
+  kraj/waluta (Play Console > Monetize > Products), tresc regulaminu
+  odwoluje sie tylko do tego co produkt DAJE, nie ile kosztuje, zeby nie
+  trzeba bylo aktualizowac tego pliku przy kazdej zmianie cennika.
+  ============================================================================
+-->
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Regulamin — Last Outpost: Dead Zone</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #12100e;
+    --panel: #1b1815;
+    --text: #e8e2d6;
+    --muted: #a49a8a;
+    --accent: #c75210;
+    --accent-soft: #f0c48a;
+    --line: #3a332c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 32px 20px 72px;
+  }
+  header {
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 20px;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin: 0 0 6px;
+    color: var(--accent-soft);
+    letter-spacing: 0.5px;
+  }
+  .game { font-size: 0.95rem; color: var(--accent); margin: 0 0 4px; letter-spacing: 1.5px; text-transform: uppercase; }
+  .updated { font-size: 0.85rem; color: var(--muted); margin: 0; }
+  nav { margin: 24px 0 8px; font-size: 0.9rem; }
+  nav a {
+    color: var(--accent-soft);
+    text-decoration: none;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 6px 14px;
+    display: inline-block;
+    margin: 0 6px 6px 0;
+    background: var(--panel);
+  }
+  nav a:hover { border-color: var(--accent); }
+  h2 {
+    font-size: 1.25rem;
+    color: var(--accent-soft);
+    margin: 48px 0 4px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+  }
+  h3 {
+    font-size: 1.02rem;
+    color: var(--text);
+    margin: 28px 0 6px;
+  }
+  p, li { color: var(--text); }
+  a { color: var(--accent-soft); }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .lead { color: var(--muted); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 6px;
+    font-size: 0.92rem;
+  }
+  .table-scroll { overflow-x: auto; }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th { background: var(--panel); color: var(--accent-soft); font-weight: 600; }
+  .box {
+    background: var(--panel);
+    border-left: 3px solid var(--accent);
+    padding: 14px 18px;
+    margin: 20px 0;
+  }
+  .box p { margin: 0; }
+  footer {
+    margin-top: 56px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  code { background: var(--panel); padding: 1px 5px; border-radius: 3px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="game">Last Outpost: Dead Zone</p>
+  <h1>Regulamin / Terms of Service</h1>
+  <p class="updated">Ostatnia aktualizacja / Last updated: 28.09.2026</p>
+</header>
+
+<nav>
+  <a href="#pl">Polski</a>
+  <a href="#en">English</a>
+</nav>
+
+<!-- ==================================================================== -->
+<!-- WERSJA POLSKA                                                        -->
+<!-- ==================================================================== -->
+<h2 id="pl">Regulamin (PL)</h2>
+
+<p class="lead">
+  Niniejszy regulamin określa zasady korzystania z gry mobilnej
+  <strong>Last Outpost: Dead Zone</strong> („Gra”) oraz zasady dokonywania
+  zakupów cyfrowych w Grze.
+</p>
+
+<h3>1. Postanowienia ogólne</h3>
+<p>
+  Wydawcą Gry jest <strong>KONSTANTA Sp. z o.o.</strong>, kontakt:
+  <strong>konstanta.elektroinst@gmail.com</strong> („Wydawca”). Gra jest
+  dystrybuowana za pośrednictwem Google Play (Google Ireland Limited) oraz,
+  w przyszłości, innych sklepów z aplikacjami. Korzystając z Gry, akceptujesz
+  niniejszy regulamin oraz <a href="privacy-policy.html">politykę
+  prywatności</a>.
+</p>
+
+<h3>2. Dostęp do Gry</h3>
+<p>
+  Gra jest dostępna bezpłatnie do pobrania i grania (model free-to-play).
+  Nie wymaga zakładania konta ani rejestracji — postęp zapisywany jest
+  lokalnie na urządzeniu (patrz polityka prywatności, pkt 3). Gra kierowana
+  jest do graczy zgodnie z oceną wiekową nadaną w danym sklepie z
+  aplikacjami; jeśli korzystasz z Gry jako osoba niepełnoletnia, powinieneś
+  mieć zgodę opiekuna prawnego, w tym na ewentualne zakupy opisane w pkt 4.
+</p>
+
+<h3>3. Reklamy</h3>
+<p>
+  Gra wyświetla reklamy typu rewarded (z nagrodą) wyłącznie na wyraźne
+  życzenie gracza — obejrzenie reklamy do końca jest dobrowolne i daje
+  jednorazowy bonus opisany w Grze (np. przyspieszenie misji, reanimacja
+  ocalałego). Gra nie wyświetla reklam wymuszonych ani przerywających
+  rozgrywkę bez Twojej akcji. Dostawcą reklam jest Google AdMob — szczegóły
+  w <a href="privacy-policy.html">polityce prywatności</a>, pkt 4 i 7.
+</p>
+
+<h3>4. Zakupy cyfrowe</h3>
+<p>
+  W Grze dostępne są następujące produkty cyfrowe, kupowane wyłącznie przez
+  system płatności danego sklepu z aplikacjami (np. Google Play Billing):
+</p>
+<div class="table-scroll">
+<table>
+  <thead>
+    <tr><th>Produkt</th><th>Co otrzymujesz</th><th>Rodzaj</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>mission_skip_ticket</code></td>
+      <td>1 bilet pozwalający natychmiast zakończyć czas oczekiwania na
+          jedną misję</td>
+      <td>zużywalny (można kupować wielokrotnie)</td>
+    </tr>
+    <tr>
+      <td><code>mission_skip_ticket_5</code></td>
+      <td>Pakiet 5 biletów jak wyżej</td>
+      <td>zużywalny</td>
+    </tr>
+    <tr>
+      <td><code>starter_pack</code></td>
+      <td>Pakiet 10 biletów jak wyżej</td>
+      <td>zużywalny</td>
+    </tr>
+    <tr>
+      <td><code>starter_boost</code></td>
+      <td>Trwały bonus startowy przy rozpoczęciu nowej gry (dodatkowy złom i
+          dodatkowe miejsce w magazynie); można włączać/wyłączać dla kolejnych
+          rozgrywek</td>
+      <td>jednorazowy zakup, trwały (non-consumable)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p>
+  Aktualne ceny produktów wyświetlane są w Grze przed potwierdzeniem zakupu i
+  ustalane są przez dany sklep z aplikacjami odrębnie dla poszczególnych
+  krajów i walut — Wydawca ich tu nie podaje, żeby regulamin nie stał się
+  nieaktualny przy każdej zmianie cennika. Wydawca nie zbiera ani nie
+  przechowuje danych Twojej karty płatniczej — płatność obsługuje w całości
+  sklep z aplikacjami.
+</p>
+
+<h3>5. Prawo odstąpienia od umowy</h3>
+<p>
+  Zgodnie z art. 38 pkt 13 ustawy z dnia 30 maja 2014 r. o prawach
+  konsumenta, prawo odstąpienia od umowy zawartej na odległość
+  <strong>nie przysługuje</strong> w odniesieniu do umów o dostarczanie
+  treści cyfrowych niedostarczanych na nośniku materialnym, jeżeli spełnianie
+  świadczenia rozpoczęło się za wyraźną zgodą konsumenta przed upływem
+  terminu do odstąpienia od umowy i po poinformowaniu go o utracie prawa
+  odstąpienia. Potwierdzenie zakupu w oknie płatności sklepu z aplikacjami
+  jest jednoznaczne z taką zgodą, a produkty opisane w pkt 4 dostarczane są
+  do Gry natychmiast po zaksięgowaniu płatności. Do momentu ostatecznego
+  potwierdzenia zakupu w oknie płatności możesz zrezygnować bez żadnych
+  konsekwencji.
+</p>
+
+<h3>6. Reklamacje</h3>
+<p>
+  Reklamacje dotyczące działania Gry lub dokonanych zakupów możesz zgłaszać:
+</p>
+<ul>
+  <li>na adres <strong>konstanta.elektroinst@gmail.com</strong> — opisz
+      problem, produkt którego dotyczy (jeśli dotyczy zakupu) i, jeśli to
+      możliwe, numer transakcji z potwierdzenia zakupu,</li>
+  <li>równolegle, za pośrednictwem mechanizmu zgłaszania problemów w danym
+      sklepie z aplikacjami (np. Google Play → Historia → dana transakcja →
+      Zgłoś problem) — część zwrotów sklep obsługuje samodzielnie, niezależnie
+      od Wydawcy.</li>
+</ul>
+<p>
+  Reklamacje rozpatrywane są w terminie 14 dni od zgłoszenia. Odpowiedź
+  przesyłana jest na adres e-mail, z którego wysłano zgłoszenie, chyba że
+  gracz wskaże inny sposób kontaktu.
+</p>
+
+<h3>7. Licencja i własność intelektualna</h3>
+<p>
+  Gra, jej kod, grafiki, teksty, dźwięki i pozostała zawartość stanowią
+  własność Wydawcy lub są przez niego licencjonowane. Instalując Grę,
+  otrzymujesz niewyłączną, nieprzenoszalną licencję na korzystanie z Gry
+  wyłącznie do użytku osobistego, niekomercyjnego, zgodnie z zasadami danego
+  sklepu z aplikacjami. Zabronione jest w szczególności: dekompilowanie lub
+  inne odtwarzanie kodu źródłowego Gry poza przypadkami dozwolonymi przez
+  bezwzględnie obowiązujące przepisy prawa, dystrybuowanie zmodyfikowanych
+  wersji Gry oraz wykorzystywanie Gry w celach komercyjnych bez zgody
+  Wydawcy.
+</p>
+
+<h3>8. Odpowiedzialność Wydawcy</h3>
+<p>
+  Wydawca dokłada starań, aby Gra działała poprawnie i była dostępna w
+  sposób ciągły, nie gwarantuje jednak nieprzerwanego, wolnego od błędów
+  działania Gry — w szczególności funkcje takie jak reklamy, powiadomienia,
+  zakupy czy zbieranie statystyk wymagają połączenia z internetem i zależą
+  od dostawców zewnętrznych wymienionych w
+  <a href="privacy-policy.html">polityce prywatności</a>, na których działanie
+  Wydawca nie ma pełnego wpływu. Odpowiedzialność Wydawcy wobec konsumentów
+  jest ograniczona wyłącznie w zakresie dopuszczalnym przez bezwzględnie
+  obowiązujące przepisy prawa polskiego.
+</p>
+
+<h3>9. Zmiany w regulaminie</h3>
+<p>
+  Regulamin może być aktualizowany wraz z rozwojem Gry, w szczególności przy
+  wprowadzaniu nowych produktów cyfrowych. Data ostatniej zmiany widnieje na
+  początku strony. Istotne zmiany zostaną ogłoszone w opisie aktualizacji Gry
+  w sklepie z aplikacjami. Zakupy dokonane przed zmianą regulaminu podlegają
+  zasadom obowiązującym w chwili ich dokonania.
+</p>
+
+<h3>10. Prawo właściwe i rozstrzyganie sporów</h3>
+<p>
+  Do niniejszego regulaminu zastosowanie ma prawo polskie. Spory
+  konsumenckie możesz zgłosić do właściwego sądu powszechnego lub
+  skorzystać z pozasądowych sposobów rozpatrywania reklamacji i dochodzenia
+  roszczeń, w tym unijnej platformy internetowego rozstrzygania sporów (ODR)
+  dostępnej pod adresem
+  <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">ec.europa.eu/consumers/odr</a>.
+</p>
+
+<h3>11. Kontakt</h3>
+<p>
+  Pytania dotyczące regulaminu: <strong>konstanta.elektroinst@gmail.com</strong>.
+</p>
+
+<!-- ==================================================================== -->
+<!-- ENGLISH VERSION                                                      -->
+<!-- ==================================================================== -->
+<h2 id="en" lang="en">Terms of Service (EN)</h2>
+
+<div lang="en">
+
+<p class="lead">
+  These Terms of Service govern the use of the mobile game
+  <strong>Last Outpost: Dead Zone</strong> (the "Game") and any digital
+  purchases made within it.
+</p>
+
+<h3>1. General provisions</h3>
+<p>
+  The Game is published by <strong>KONSTANTA Sp. z o.o.</strong>, contact:
+  <strong>konstanta.elektroinst@gmail.com</strong> (the "Publisher"). The
+  Game is distributed through Google Play (Google Ireland Limited) and, in
+  the future, other app stores. By using the Game, you accept these Terms
+  and the <a href="privacy-policy.html">Privacy Policy</a>.
+</p>
+
+<h3>2. Access to the Game</h3>
+<p>
+  The Game is free to download and play (free-to-play model). It requires no
+  account or sign-up — progress is saved locally on your device (see
+  Privacy Policy, section 3). The Game is intended for players matching the
+  age rating assigned by the relevant app store; if you are a minor, you
+  should have a parent or guardian's consent, including for any purchases
+  described in section 4.
+</p>
+
+<h3>3. Advertising</h3>
+<p>
+  The Game shows rewarded ads only at the player's explicit request —
+  watching an ad to completion is voluntary and grants a one-time in-game
+  bonus (e.g. speeding up a mission, reviving a survivor). The Game shows no
+  forced or gameplay-interrupting ads without your action. Ads are served by
+  Google AdMob — see <a href="privacy-policy.html">Privacy Policy</a>,
+  sections 4 and 7, for details.
+</p>
+
+<h3>4. Digital purchases</h3>
+<p>
+  The Game offers the following digital products, purchasable only through
+  the relevant app store's payment system (e.g. Google Play Billing):
+</p>
+<div class="table-scroll">
+<table>
+  <thead>
+    <tr><th>Product</th><th>What you get</th><th>Type</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>mission_skip_ticket</code></td>
+      <td>1 ticket that instantly finishes one mission's remaining wait
+          time</td>
+      <td>consumable (repeatable purchase)</td>
+    </tr>
+    <tr>
+      <td><code>mission_skip_ticket_5</code></td>
+      <td>A bundle of 5 tickets as above</td>
+      <td>consumable</td>
+    </tr>
+    <tr>
+      <td><code>starter_pack</code></td>
+      <td>A bundle of 10 tickets as above</td>
+      <td>consumable</td>
+    </tr>
+    <tr>
+      <td><code>starter_boost</code></td>
+      <td>A permanent starting bonus for new games (extra scrap and one
+          extra storage slot); can be toggled on/off for each new
+          playthrough</td>
+      <td>one-time purchase, permanent (non-consumable)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p>
+  Current prices are shown in the Game before you confirm a purchase and are
+  set by the relevant app store separately for each country and currency —
+  the Publisher does not list them here, so these Terms don't go stale every
+  time prices change. The Publisher never collects or stores your payment
+  card details — payment is handled entirely by the app store.
+</p>
+
+<h3>5. Right of withdrawal</h3>
+<p>
+  Under Polish consumer law implementing Art. 16(m) of Directive 2011/83/EU,
+  the right of withdrawal from a distance contract <strong>does not
+  apply</strong> to contracts for the supply of digital content not
+  supplied on a tangible medium, where performance has begun with the
+  consumer's prior express consent and acknowledgement that they thereby
+  lose their right of withdrawal. Confirming a purchase in the app store's
+  payment window constitutes such consent, and the products listed in
+  section 4 are delivered to the Game immediately once payment clears. You
+  may cancel at no cost at any point before final confirmation in the
+  payment window.
+</p>
+
+<h3>6. Complaints</h3>
+<p>You can report issues with the Game or a purchase:</p>
+<ul>
+  <li>by e-mail to <strong>konstanta.elektroinst@gmail.com</strong> —
+      describe the issue, the product involved (if purchase-related) and,
+      if possible, the transaction number from your purchase receipt,</li>
+  <li>in parallel, through the relevant app store's own issue-reporting flow
+      (e.g. Google Play → Order history → the transaction → Report a
+      problem) — some refunds are handled directly by the store, independent
+      of the Publisher.</li>
+</ul>
+<p>
+  Complaints are handled within 14 days of submission. A response is sent to
+  the e-mail address the complaint was submitted from, unless another
+  contact method is provided.
+</p>
+
+<h3>7. License and intellectual property</h3>
+<p>
+  The Game, its code, art, text, sound and all other content are owned by
+  or licensed to the Publisher. Installing the Game grants you a
+  non-exclusive, non-transferable license to use it for personal,
+  non-commercial purposes only, subject to the relevant app store's own
+  terms. In particular, you may not: decompile or otherwise reverse-engineer
+  the Game's code except where mandatory law allows it, distribute modified
+  versions of the Game, or use the Game for commercial purposes without the
+  Publisher's consent.
+</p>
+
+<h3>8. Publisher's liability</h3>
+<p>
+  The Publisher makes reasonable efforts to keep the Game working correctly
+  and continuously available, but does not guarantee uninterrupted,
+  error-free operation — features such as ads, notifications, purchases and
+  analytics all require an internet connection and depend on the
+  third-party providers listed in the
+  <a href="privacy-policy.html">Privacy Policy</a>, whose operation the
+  Publisher does not fully control. The Publisher's liability toward
+  consumers is limited only to the extent permitted by mandatory Polish law.
+</p>
+
+<h3>9. Changes to these Terms</h3>
+<p>
+  These Terms may be updated as the Game evolves, in particular when new
+  digital products are introduced. The date of the last change is shown at
+  the top of this page. Significant changes will be announced in the Game's
+  store release notes. Purchases made before a change remain governed by the
+  Terms in effect at the time of purchase.
+</p>
+
+<h3>10. Governing law and dispute resolution</h3>
+<p>
+  These Terms are governed by Polish law. Consumer disputes may be brought
+  before the competent Polish court, or resolved out of court, including via
+  the EU Online Dispute Resolution (ODR) platform at
+  <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">ec.europa.eu/consumers/odr</a>.
+</p>
+
+<h3>11. Contact</h3>
+<p>
+  Questions about these Terms: <strong>konstanta.elektroinst@gmail.com</strong>.
+</p>
+
+</div>
+
+<footer>
+  Last Outpost: Dead Zone — Regulamin / Terms of Service
+</footer>
+
+</div>
+</body>
+</html>
