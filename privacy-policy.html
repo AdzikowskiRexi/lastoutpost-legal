@@ -1,0 +1,502 @@
+<!doctype html>
+<!--
+  ============================================================================
+  Nazwa wydawcy (KONSTANTA Sp. z o.o.) i adres kontaktowy
+  (konstanta.elektroinst@gmail.com) uzupelnione 2026-09-28 — patrz sekcje 1, 8
+  i 12 (PL) oraz 1, 8 i 12 (EN). Klasa CSS "fill-me" nizej zostaje w pliku
+  nieuzywana na wypadek przyszlych placeholderow, nie usuwac bez potrzeby.
+
+  Adres tej strony po wlaczeniu GitHub Pages (Settings > Pages > Deploy from
+  a branch > main > /docs):
+    https://adzikowskirexi.github.io/lastoutpost/privacy-policy.html
+  Ten sam adres musi trafic do:
+    - Google Play Console > Policy > App content > Privacy policy
+    - App Store Connect > App Privacy > Privacy Policy URL
+    - stalej PRIVACY_POLICY_URL w screens/start_screen.gd
+  ============================================================================
+-->
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Polityka prywatności — Last Outpost: Dead Zone</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #12100e;
+    --panel: #1b1815;
+    --text: #e8e2d6;
+    --muted: #a49a8a;
+    --accent: #c75210;
+    --accent-soft: #f0c48a;
+    --line: #3a332c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 32px 20px 72px;
+  }
+  header {
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 20px;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin: 0 0 6px;
+    color: var(--accent-soft);
+    letter-spacing: 0.5px;
+  }
+  .game { font-size: 0.95rem; color: var(--accent); margin: 0 0 4px; letter-spacing: 1.5px; text-transform: uppercase; }
+  .updated { font-size: 0.85rem; color: var(--muted); margin: 0; }
+  nav { margin: 24px 0 8px; font-size: 0.9rem; }
+  nav a {
+    color: var(--accent-soft);
+    text-decoration: none;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 6px 14px;
+    display: inline-block;
+    margin: 0 6px 6px 0;
+    background: var(--panel);
+  }
+  nav a:hover { border-color: var(--accent); }
+  h2 {
+    font-size: 1.25rem;
+    color: var(--accent-soft);
+    margin: 48px 0 4px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+  }
+  h3 {
+    font-size: 1.02rem;
+    color: var(--text);
+    margin: 28px 0 6px;
+  }
+  p, li { color: var(--text); }
+  a { color: var(--accent-soft); }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .lead { color: var(--muted); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 6px;
+    font-size: 0.92rem;
+  }
+  .table-scroll { overflow-x: auto; }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th { background: var(--panel); color: var(--accent-soft); font-weight: 600; }
+  .fill-me {
+    color: #ff6b5e;
+    font-weight: 700;
+    background: rgba(255, 107, 94, 0.12);
+    padding: 1px 6px;
+    border-radius: 3px;
+  }
+  .box {
+    background: var(--panel);
+    border-left: 3px solid var(--accent);
+    padding: 14px 18px;
+    margin: 20px 0;
+  }
+  .box p { margin: 0; }
+  footer {
+    margin-top: 56px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  code { background: var(--panel); padding: 1px 5px; border-radius: 3px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="game">Last Outpost: Dead Zone</p>
+  <h1>Polityka prywatności / Privacy Policy</h1>
+  <p class="updated">Ostatnia aktualizacja / Last updated: 15.09.2026</p>
+</header>
+
+<nav>
+  <a href="#pl">Polski</a>
+  <a href="#en">English</a>
+</nav>
+
+<!-- ==================================================================== -->
+<!-- WERSJA POLSKA                                                        -->
+<!-- ==================================================================== -->
+<h2 id="pl">Polityka prywatności (PL)</h2>
+
+<p class="lead">
+  Ta polityka opisuje, jakie dane są zbierane podczas korzystania z gry mobilnej
+  <strong>Last Outpost: Dead Zone</strong> („Gra”), w jakim celu i komu są przekazywane.
+</p>
+
+<div class="box">
+  <p>
+    W skrócie: Gra nie wymaga konta ani rejestracji, nie pyta o imię, e-mail ani numer
+    telefonu. Twój zapis gry zostaje na Twoim urządzeniu. Dane techniczne zbierają
+    natomiast zewnętrzne narzędzia wbudowane w Grę — reklamy, analityka, raporty błędów
+    i powiadomienia. Szczegóły poniżej.
+  </p>
+</div>
+
+<h3>1. Kto jest administratorem danych</h3>
+<p>
+  Administratorem danych osobowych przetwarzanych w związku z Grą jest
+  KONSTANTA Sp. z o.o., kontakt:
+  konstanta.elektroinst@gmail.com.
+</p>
+<p>
+  Dostawcy wymienieni w punkcie 4 przetwarzają dane jako odrębni administratorzy lub
+  podmioty przetwarzające — zgodnie z własnymi politykami prywatności, do których
+  prowadzą podane linki.
+</p>
+
+<h3>2. Danych, których Gra NIE zbiera</h3>
+<ul>
+  <li>imienia, nazwiska, adresu e-mail, numeru telefonu — Gra nie ma rejestracji ani logowania,</li>
+  <li>dokładnej lokalizacji (GPS) — Gra nie prosi o uprawnienie do lokalizacji,</li>
+  <li>kontaktów, zdjęć, plików ani mikrofonu,</li>
+  <li>danych płatniczych — Gra nie prowadzi własnych płatności.</li>
+</ul>
+<p>
+  Na Androidzie Gra deklaruje wyłącznie dwa uprawnienia: dostęp do internetu
+  (<code>INTERNET</code>) oraz wyświetlanie powiadomień (<code>POST_NOTIFICATIONS</code>).
+</p>
+
+<h3>3. Dane zapisywane na Twoim urządzeniu</h3>
+<p>
+  Postęp w Grze (stan obozu, ocalali, ekwipunek, wybrana nazwa obozu, ustawienia
+  głośności i języka) zapisywany jest lokalnie, w pamięci aplikacji na Twoim urządzeniu.
+  Te dane nie są wysyłane na żadne serwery ani udostępniane nikomu. Odinstalowanie Gry
+  albo skorzystanie z opcji „Nowa gra” usuwa je trwale.
+</p>
+
+<h3>4. Dane zbierane przez zewnętrznych dostawców</h3>
+<p>
+  Gra korzysta z gotowych narzędzi zewnętrznych firm. Każde z nich zbiera dane techniczne
+  o urządzeniu i sposobie korzystania z Gry:
+</p>
+
+<div class="table-scroll">
+<table>
+  <thead>
+    <tr>
+      <th>Dostawca</th>
+      <th>Po co</th>
+      <th>Jakie dane</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Google AdMob</strong><br>(Google Ireland Ltd.)</td>
+      <td>Wyświetlanie reklam z nagrodą — krótkie filmy, które gracz włącza
+          <em>dobrowolnie</em>, żeby zdobyć bonus w Grze. Gra nie pokazuje reklam
+          wymuszonych.</td>
+      <td>Identyfikator reklamowy urządzenia, adres IP, model urządzenia i wersja
+          systemu, informacja o wyświetleniu/ukończeniu reklamy.</td>
+    </tr>
+    <tr>
+      <td><strong>GameAnalytics</strong><br>(GameAnalytics ApS)</td>
+      <td>Statystyki rozgrywki — które misje gracze kończą, a na których się poddają,
+          żeby dopasować trudność i naprawiać problemy w balansie.</td>
+      <td>Anonimowy identyfikator instalacji, model urządzenia, wersja systemu i Gry,
+          kraj (na podstawie adresu IP), zdarzenia w Grze (start/ukończenie/porażka
+          misji, otwierane ekrany, moment zakończenia sesji).</td>
+    </tr>
+    <tr>
+      <td><strong>Sentry</strong><br>(Functional Software, Inc.)</td>
+      <td>Raporty błędów i awarii — żeby dało się naprawić błędy, które wywalają Grę.</td>
+      <td>Treść błędu i ślad stosu, model urządzenia, wersja systemu i Gry, adres IP.</td>
+    </tr>
+    <tr>
+      <td><strong>OneSignal</strong><br>(OneSignal, Inc.)</td>
+      <td>Powiadomienia push o wynikach wysłanych misji (np. że drużyna wróciła do obozu).</td>
+      <td>Token powiadomień urządzenia, model urządzenia, wersja systemu, strefa
+          czasowa i język.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>Polityki prywatności dostawców:</p>
+<ul>
+  <li>Google / AdMob — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>,
+      reklamy: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">policies.google.com/technologies/ads</a></li>
+  <li>GameAnalytics — <a href="https://gameanalytics.com/privacy/" target="_blank" rel="noopener">gameanalytics.com/privacy</a></li>
+  <li>Sentry — <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">sentry.io/privacy</a></li>
+  <li>OneSignal — <a href="https://onesignal.com/privacy_policy" target="_blank" rel="noopener">onesignal.com/privacy_policy</a></li>
+</ul>
+
+<h3>5. Podstawa prawna przetwarzania (RODO)</h3>
+<ul>
+  <li><strong>Zgoda</strong> (art. 6 ust. 1 lit. a RODO) — reklamy spersonalizowane oraz
+      powiadomienia push. Zgodę można wycofać w każdej chwili (patrz punkt 7).</li>
+  <li><strong>Prawnie uzasadniony interes</strong> (art. 6 ust. 1 lit. f RODO) — raporty
+      awarii i podstawowa analityka, bez których nie da się utrzymać i naprawiać Gry.</li>
+</ul>
+
+<h3>6. Jak długo dane są przechowywane</h3>
+<ul>
+  <li>zapis gry — na Twoim urządzeniu, do odinstalowania Gry lub rozpoczęcia nowej gry,</li>
+  <li>dane reklamowe, analityczne i raporty awarii — zgodnie z okresami retencji
+      dostawców wskazanych w punkcie 4 (zwykle od kilku miesięcy do 2 lat),</li>
+  <li>token powiadomień — do wyłączenia powiadomień lub odinstalowania Gry.</li>
+</ul>
+
+<h3>7. Jak wyłączyć zbieranie danych</h3>
+<ul>
+  <li><strong>Reklamy:</strong> reklamy w Grze są dobrowolne — wystarczy ich nie
+      włączać. Personalizację reklam można ograniczyć w systemie:
+      Android → <em>Ustawienia → Google → Reklamy</em> (usunięcie lub zresetowanie
+      identyfikatora reklamowego); iOS → <em>Ustawienia → Prywatność i ochrona →
+      Śledzenie</em>.</li>
+  <li><strong>Powiadomienia push:</strong> Android → <em>Ustawienia → Aplikacje → Last
+      Outpost → Powiadomienia</em>; iOS → <em>Ustawienia → Powiadomienia → Last
+      Outpost</em>.</li>
+  <li><strong>Wszystkie dane lokalne:</strong> odinstalowanie Gry usuwa zapis
+      i ustawienia z urządzenia.</li>
+</ul>
+
+<h3>8. Twoje prawa</h3>
+<p>
+  Masz prawo żądać dostępu do swoich danych, ich sprostowania, usunięcia lub
+  ograniczenia przetwarzania, prawo wniesienia sprzeciwu wobec przetwarzania oraz prawo
+  do przenoszenia danych. Masz też prawo wnieść skargę do organu nadzorczego — w Polsce
+  jest to Prezes Urzędu Ochrony Danych Osobowych (uodo.gov.pl).
+</p>
+<p>
+  Żądania kieruj na adres: konstanta.elektroinst@gmail.com.
+  Ponieważ Gra nie prowadzi kont użytkowników, do realizacji części żądań konieczne może
+  być podanie identyfikatora reklamowego urządzenia — bez niego nie da się powiązać
+  danych technicznych z konkretną osobą.
+</p>
+
+<h3>9. Dzieci</h3>
+<p>
+  Gra nie jest przeznaczona dla dzieci poniżej 13. roku życia i nie jest do nich
+  kierowana. Nie zbieramy świadomie danych od dzieci. Jeśli opiekun prawny stwierdzi, że
+  dziecko przekazało dane, prosimy o kontakt — dane zostaną usunięte.
+</p>
+
+<h3>10. Przekazywanie danych poza EOG</h3>
+<p>
+  Część dostawców z punktu 4 przetwarza dane poza Europejskim Obszarem Gospodarczym
+  (m.in. w USA). Przekazanie odbywa się na podstawie standardowych klauzul umownych
+  zatwierdzonych przez Komisję Europejską lub innych mechanizmów przewidzianych w
+  rozdziale V RODO.
+</p>
+
+<h3>11. Zmiany w polityce</h3>
+<p>
+  Polityka może być aktualizowana wraz z rozwojem Gry. Data ostatniej zmiany widnieje na
+  początku strony. Istotne zmiany zostaną ogłoszone w opisie aktualizacji Gry w sklepie.
+</p>
+
+<h3>12. Kontakt</h3>
+<p>
+  Pytania dotyczące prywatności: konstanta.elektroinst@gmail.com.
+</p>
+
+<!-- ==================================================================== -->
+<!-- ENGLISH VERSION                                                      -->
+<!-- ==================================================================== -->
+<h2 id="en" lang="en">Privacy Policy (EN)</h2>
+
+<div lang="en">
+
+<p class="lead">
+  This policy explains what data is collected when you play the mobile game
+  <strong>Last Outpost: Dead Zone</strong> (the “Game”), why it is collected, and who it
+  is shared with.
+</p>
+
+<div class="box">
+  <p>
+    In short: the Game requires no account or sign-up and never asks for your name,
+    e-mail or phone number. Your save file stays on your device. Technical data is,
+    however, collected by third-party tools built into the Game — ads, analytics, crash
+    reporting and notifications. Details below.
+  </p>
+</div>
+
+<h3>1. Data controller</h3>
+<p>
+  The controller of personal data processed in connection with the Game is
+  KONSTANTA Sp. z o.o., contact:
+  konstanta.elektroinst@gmail.com.
+</p>
+<p>
+  The providers listed in section 4 process data as separate controllers or as
+  processors, under their own privacy policies linked below.
+</p>
+
+<h3>2. Data the Game does NOT collect</h3>
+<ul>
+  <li>name, surname, e-mail address or phone number — the Game has no sign-up or login,</li>
+  <li>precise location (GPS) — the Game never requests the location permission,</li>
+  <li>contacts, photos, files or microphone,</li>
+  <li>payment data — the Game processes no payments of its own.</li>
+</ul>
+<p>
+  On Android the Game declares only two permissions: internet access
+  (<code>INTERNET</code>) and showing notifications (<code>POST_NOTIFICATIONS</code>).
+</p>
+
+<h3>3. Data stored on your device</h3>
+<p>
+  Your progress (camp state, survivors, inventory, the camp name you chose, volume and
+  language settings) is saved locally in the app's storage on your device. This data is
+  never uploaded to any server or shared with anyone. Uninstalling the Game or starting
+  a new game deletes it permanently.
+</p>
+
+<h3>4. Data collected by third-party providers</h3>
+<p>
+  The Game uses off-the-shelf third-party services. Each of them collects technical data
+  about your device and how you use the Game:
+</p>
+
+<div class="table-scroll">
+<table>
+  <thead>
+    <tr>
+      <th>Provider</th>
+      <th>Purpose</th>
+      <th>Data collected</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Google AdMob</strong><br>(Google Ireland Ltd.)</td>
+      <td>Serving rewarded ads — short videos the player starts <em>voluntarily</em> to
+          earn an in-game bonus. The Game shows no forced ads.</td>
+      <td>Device advertising ID, IP address, device model and OS version, ad
+          impression/completion data.</td>
+    </tr>
+    <tr>
+      <td><strong>GameAnalytics</strong><br>(GameAnalytics ApS)</td>
+      <td>Gameplay statistics — which missions players finish and where they give up, so
+          difficulty and balance can be fixed.</td>
+      <td>Anonymous install identifier, device model, OS and Game version, country
+          (derived from IP address), in-game events (mission start/complete/fail, screens
+          opened, session quit points).</td>
+    </tr>
+    <tr>
+      <td><strong>Sentry</strong><br>(Functional Software, Inc.)</td>
+      <td>Error and crash reports — so bugs that crash the Game can be fixed.</td>
+      <td>Error message and stack trace, device model, OS and Game version, IP address.</td>
+    </tr>
+    <tr>
+      <td><strong>OneSignal</strong><br>(OneSignal, Inc.)</td>
+      <td>Push notifications about the outcome of missions you sent out (e.g. that your
+          crew made it back to camp).</td>
+      <td>Device push token, device model, OS version, time zone and language.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>Provider privacy policies:</p>
+<ul>
+  <li>Google / AdMob — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>,
+      ads: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">policies.google.com/technologies/ads</a></li>
+  <li>GameAnalytics — <a href="https://gameanalytics.com/privacy/" target="_blank" rel="noopener">gameanalytics.com/privacy</a></li>
+  <li>Sentry — <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">sentry.io/privacy</a></li>
+  <li>OneSignal — <a href="https://onesignal.com/privacy_policy" target="_blank" rel="noopener">onesignal.com/privacy_policy</a></li>
+</ul>
+
+<h3>5. Legal basis for processing (GDPR)</h3>
+<ul>
+  <li><strong>Consent</strong> (Art. 6(1)(a) GDPR) — personalised advertising and push
+      notifications. Consent can be withdrawn at any time (see section 7).</li>
+  <li><strong>Legitimate interest</strong> (Art. 6(1)(f) GDPR) — crash reporting and
+      basic analytics, without which the Game cannot be maintained and fixed.</li>
+</ul>
+
+<h3>6. Retention periods</h3>
+<ul>
+  <li>save file — on your device, until you uninstall the Game or start a new game,</li>
+  <li>advertising, analytics and crash data — per the retention periods of the providers
+      in section 4 (typically a few months up to 2 years),</li>
+  <li>push token — until you disable notifications or uninstall the Game.</li>
+</ul>
+
+<h3>7. How to opt out</h3>
+<ul>
+  <li><strong>Ads:</strong> ads in the Game are voluntary — simply do not start them. Ad
+      personalisation can be limited at the OS level: Android →
+      <em>Settings → Google → Ads</em> (delete or reset advertising ID); iOS →
+      <em>Settings → Privacy &amp; Security → Tracking</em>.</li>
+  <li><strong>Push notifications:</strong> Android → <em>Settings → Apps → Last Outpost
+      → Notifications</em>; iOS → <em>Settings → Notifications → Last Outpost</em>.</li>
+  <li><strong>All local data:</strong> uninstalling the Game removes the save file and
+      settings from your device.</li>
+</ul>
+
+<h3>8. Your rights</h3>
+<p>
+  You have the right to request access to your data, its rectification, erasure or
+  restriction of processing, the right to object to processing, and the right to data
+  portability. You also have the right to lodge a complaint with a supervisory
+  authority — in Poland this is the President of the Personal Data Protection Office
+  (uodo.gov.pl).
+</p>
+<p>
+  Send requests to konstanta.elektroinst@gmail.com. Because the
+  Game keeps no user accounts, some requests may require you to provide your device
+  advertising ID — without it, technical data cannot be linked to a specific person.
+</p>
+
+<h3>9. Children</h3>
+<p>
+  The Game is not intended for and not directed at children under 13. We do not
+  knowingly collect data from children. If a parent or guardian believes a child has
+  provided data, please contact us and it will be deleted.
+</p>
+
+<h3>10. International transfers</h3>
+<p>
+  Some providers listed in section 4 process data outside the European Economic Area
+  (including in the USA). Such transfers rely on Standard Contractual Clauses approved by
+  the European Commission or on other mechanisms provided for in Chapter V GDPR.
+</p>
+
+<h3>11. Changes to this policy</h3>
+<p>
+  This policy may be updated as the Game evolves. The date of the last change is shown at
+  the top of this page. Significant changes will be announced in the Game's store release
+  notes.
+</p>
+
+<h3>12. Contact</h3>
+<p>
+  Privacy questions: konstanta.elektroinst@gmail.com.
+</p>
+
+</div>
+
+<footer>
+  Last Outpost: Dead Zone — Polityka prywatności / Privacy Policy
+</footer>
+
+</div>
+</body>
+</html>
